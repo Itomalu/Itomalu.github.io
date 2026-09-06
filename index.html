@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>田中 威斗 | ポートフォリオ</title>
+    <meta name="description" content="ゲームプランナー志望・田中威斗の制作作品、担当内容、ゲーム企画書を掲載しています。">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="田中威斗 ポートフォリオ トップ">
+        <span class="brand-main">ITTO TANAKA</span>
+        <span class="brand-sub">GAME PLANNER</span>
+      </a>
+      <nav aria-label="メインナビゲーション">
+        <a href="#works">WORKS</a>
+        <a href="#profile">PROFILE</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img class="hero-image" src="./images/magnebot-gameplay.png" alt="Magnebotのゲームプレイ画面">
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <p class="hero-side" aria-hidden="true">PORTFOLIO / 2026</p>
+        <div class="hero-content">
+          <p class="hero-kicker">GAME PLANNER / LEVEL DESIGN / UNITY</p>
+          <h1 id="hero-title"><span>ITTO</span><span>TANAKA</span></h1>
+          <p class="hero-ja">田中 威斗 <span>ゲームプランナー志望</span></p>
+          <a class="hero-action" href="#works">作品を見る <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-feature">
+          <p>FEATURED PROJECT</p>
+          <strong>MAGNEBOT</strong>
+          <span>2D MAGNETIC ACTION</span>
+        </div>
+      </section>
+
+      <section class="works-section" id="works" aria-labelledby="works-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">SELECTED PROJECTS</p>
+            <h2 id="works-title">WORKS</h2>
+          </div>
+          <p class="section-lead">制作作品とゲーム企画書。画像から遊びの核をつかみ、詳しい内容はPDFで確認できます。</p>
+        </div>
+
+        <div class="work-tabs">
+          <div class="filter-tabs" role="tablist" aria-label="掲載内容の種類">
+            <button type="button" data-slot="tabs-trigger" data-filter="all" data-active aria-selected="true">ALL <span>03</span></button>
+            <button type="button" data-slot="tabs-trigger" data-filter="game" aria-selected="false">GAMES <span>01</span></button>
+            <button type="button" data-slot="tabs-trigger" data-filter="proposal" aria-selected="false">PLANS <span>02</span></button>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card work-card--game work-card--featured" data-kind="game">
+              <div class="work-visual">
+                <img src="./images/magnebot.png" alt="Magnebotのタイトル画面。レンガのステージに赤と青の磁石をあしらったロゴ。" loading="lazy">
+                <p class="work-number" aria-hidden="true">01</p>
+                <p class="work-type">GAME DEVELOPMENT</p>
+              </div>
+              <div class="work-content">
+                <div class="work-title-row">
+                  <div><p class="section-kicker">2026</p><h3>Magnebot</h3></div>
+                  <span class="work-mark" aria-hidden="true">+</span>
+                </div>
+                <p class="work-summary">N極・S極を切り替え、磁石の引力と反発で進む2Dアクション。磁石を壁や床へ撃ち込み、移動・戦闘・仕掛けの攻略に使います。</p>
+                <ul class="work-facts">
+                  <li>PC / 1人用</li><li>主要開発メンバー9名</li><li>2026年3月〜8月</li><li>Unity 6・Git・GitHub</li>
+                </ul>
+                <div class="contribution">
+                  <p class="detail-label">MY ROLE</p>
+                  <p>企画書・仕様書、2Dアニメーション、レベル構築・調整、UI・演出、Unity組み込み</p>
+                </div>
+                <p class="work-detail">極性を赤・青の色、アニメーション、オーラ、UI、SEで一貫して表現。チュートリアルから応用へ段階的に要素を増やし、導線やジャンプの高さを調整しました。</p>
+                <div class="work-gallery">
+                  <figure><a href="./images/magnebot-gameplay.png" target="_blank" rel="noopener"><img src="./images/magnebot-gameplay.png" alt="磁力ギミックを使うプレイ画面" loading="lazy"></a><figcaption>磁力ギミックを使うプレイ画面</figcaption></figure>
+                  <figure><a href="./images/magnebot-levels.png" target="_blank" rel="noopener"><img src="./images/magnebot-levels.png" alt="ステージ構成と導線を示したレベル設計図" loading="lazy"></a><figcaption>ステージ構成と導線を示したレベル設計図</figcaption></figure>
+                  <figure><a href="./images/magnebot-animator.png" target="_blank" rel="noopener"><img src="./images/magnebot-animator.png" alt="UnityのAnimatorで組んだアニメーション遷移" loading="lazy"></a><figcaption>UnityのAnimatorで組んだアニメーション遷移</figcaption></figure>
+                </div>
+                <div class="work-links">
+                  <a class="action action--primary" href="./documents/magnebot.pdf" target="_blank" rel="noopener">企画書を見る <span aria-hidden="true">↗</span></a>
+                  <a class="action action--secondary" href="./documents/magnebot.pptx" download>PowerPointを保存 <span aria-hidden="true">↓</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="work-card work-card--proposal" data-kind="proposal">
+              <div class="work-visual">
+                <img src="./images/matsuri-cover.png" alt="「ま」釣りの企画書。海の中の文字を釣り上げる対戦画面とルール。" loading="lazy">
+                <p class="work-number" aria-hidden="true">02</p>
+                <p class="work-type">GAME PROPOSAL</p>
+              </div>
+              <div class="work-content">
+                <div class="work-title-row">
+                  <div><p class="section-kicker">PLANNING</p><h3>「ま」釣り</h3></div>
+                  <span class="work-mark" aria-hidden="true">+</span>
+                </div>
+                <p class="work-summary">お題の言葉に合う「ま」を釣り上げる、1対1の3D物理対戦パズル。「真」「魔」「馬」などから正解を選び、釣る力と重心を操作します。</p>
+                <ul class="work-facts"><li>1対1の対戦</li><li>3D物理パズル</li><li>試験課題 / 企画書1枚</li></ul>
+                <p class="work-detail">文字の画数によって重さと釣りやすさが変化。成功すると相手にお邪魔文字を送り、言葉選びと物理操作を対戦の駆け引きにつなげる企画です。</p>
+                <div class="work-links">
+                  <a class="action action--primary" href="./documents/matsuri.pdf" target="_blank" rel="noopener">企画書を見る <span aria-hidden="true">↗</span></a>
+                  <a class="action action--secondary" href="./documents/matsuri.pptx" download>PowerPointを保存 <span aria-hidden="true">↓</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="work-card work-card--proposal" data-kind="proposal">
+              <div class="work-visual">
+                <img src="./images/todoke-cover.png" alt="届け！このおもい！の企画書。ラブレター、風、投げる強さと角度を示すピンク色の画面。" loading="lazy">
+                <p class="work-number" aria-hidden="true">03</p>
+                <p class="work-type">GAME PROPOSAL</p>
+              </div>
+              <div class="work-content">
+                <div class="work-title-row">
+                  <div><p class="section-kicker">PLANNING</p><h3>届け！このおもい！</h3></div>
+                  <span class="work-mark" aria-hidden="true">+</span>
+                </div>
+                <p class="work-summary">投げる物の重さと風を読み、角度と強さを決めて「おもい」を届けるスマートフォン向けタイミングアクション。タップで決定、スワイプで選択します。</p>
+                <ul class="work-facts"><li>スマートフォン / 1人用</li><li>タイミングアクション</li><li>企画書1枚</li></ul>
+                <p class="work-detail">成功するたびに相手との距離が縮まり、0mでクリア。「想い」と「重い」を重ね、投げる物の違いを遊びにつなげる企画です。</p>
+                <div class="work-links">
+                  <a class="action action--primary" href="./documents/todoke.pdf" target="_blank" rel="noopener">企画書を見る <span aria-hidden="true">↗</span></a>
+                  <a class="action action--secondary" href="./documents/todoke.pptx" download>PowerPointを保存 <span aria-hidden="true">↓</span></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="profile-section" id="profile" aria-labelledby="profile-title">
+        <div class="profile-title-block">
+          <p class="section-kicker">ABOUT ME</p>
+          <h2 id="profile-title">PROFILE</h2>
+          <p class="profile-name"><ruby>田中<rt>たなか</rt></ruby> <ruby>威斗<rt>いっと</rt></ruby><span>Tanaka Itto</span></p>
+        </div>
+        <div class="profile-copy">
+          <p class="profile-intro">見た目と操作感の両面から、遊びやすさを磨くことが好きです。</p>
+          <p>UnityとGitHubを使った共同開発を経験しました。素材の組み込み、Animator制作、ステージ調整、UI・演出を担当し、仕様変更や不具合に合わせて調整を重ねました。</p>
+          <dl class="profile-data">
+            <div><dt>SCHOOL</dt><dd>京都デザイン＆テクノロジー専門学校<br>スーパーゲームクリエイター専攻</dd></div>
+            <div><dt>FOCUS</dt><dd>レベル構築・プレイ感の調整<br>Unityでの2Dアニメーション・演出</dd></div>
+            <div><dt>GRADUATION</dt><dd>2029年3月 卒業見込み</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <p class="contact-index" aria-hidden="true">03</p>
+        <div><p class="section-kicker">GET IN TOUCH</p><h2 id="contact-title">CONTACT</h2></div>
+        <a class="email-link" href="mailto:ktc25a31a0033@edu.kyoto-tech.ac.jp"><span>ktc25a31a0033@edu.kyoto-tech.ac.jp</span><span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer><p>ITTO TANAKA / GAME PLANNER PORTFOLIO</p><a href="#top">PAGE TOP ↑</a></footer>
+  </body>
+</html>
